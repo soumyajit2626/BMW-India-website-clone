@@ -13,6 +13,13 @@
             top: 80vh;
             border: none;
             border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 0px 14px 2px black;
+            transition-duration: 0.1s;
+        }
+
+        .img9:hover {
+            transform: scale(1.2, 1.2);
         }
 
         body {
@@ -85,16 +92,7 @@
 
         }
 
-        .img9 {
-            box-shadow: 0px 0px 9px 2px black;
-            cursor: pointer;
-            transition-duration: 0.1s;
-            transition-timing-function: ease-in-out;
-        }
 
-        .img9:hover {
-            transform: scale(1.2, 1.2);
-        }
 
         .span2 {
             margin-left: 600px;
@@ -202,11 +200,13 @@
         .third {
             margin-top: 35px;
             color: white;
+            position: relative;
+
         }
 
         .third-text {
             position: absolute;
-            top: 1320px;
+            top: 20%;
             margin-left: 7vw;
         }
 
@@ -253,6 +253,56 @@
         .btn-s:hover {
             background-color: rgb(5, 101, 161)
         }
+
+        .fourth {
+            position: relative;
+            width: 99vw;
+            height: 80vh;
+            color: white;
+
+            margin-top: 30px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(https://bmw.scene7.com/is/image/BMW/GKL_Web_Banner_3000_3000_new:3to1?fmt=webp&wid=2560&hei=853);
+        }
+
+        .fourth-written {
+            position: absolute;
+            margin-left: 100px;
+            top: 50%;
+
+
+
+        }
+
+        .btn-of-four {
+            width: 320px;
+            height: 48px;
+            font-size: 17px;
+            background-color: rgb(52, 50, 50, 0.0);
+            border: 2px solid white;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+        }
+
+        .h1-of-four {
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .p-of-four {
+            letter-spacing: 7px;
+            margin-bottom: 25px;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .btn-of-four:hover {
+            box-shadow: 0px 0px 5px white inset;
+
+        }
     </style>
 </head>
 
@@ -286,7 +336,7 @@
 
         </div>
     </div>
-    <img src="download.png" alt="" class="img9">
+
     <div class="second">
         <div class="find-your">Find your BMW.</div>
         <div class="second2">
@@ -321,6 +371,18 @@
             <button class="btn-s">Skip Boring</button>
         </div>
 
+    </div>
+    <div class="fourth">
+        <div class="fourth-written">
+            <h1 class="h1-of-four">LUXURY. FAST. FORWARD.</h1>
+            <p class="p-of-four">THE BMW 7 RANGE.</p>
+            <button class="btn-of-four">Discover Now</button>
+
+        </div>
+
+    </div>
+    <div class="contact">
+        <img src="download.png" alt="" class="img9">
     </div>
 
 </body>
